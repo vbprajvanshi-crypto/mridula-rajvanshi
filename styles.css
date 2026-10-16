@@ -1,0 +1,216 @@
+:root{--paper:#f7f3ea;--ink:#342e28;--muted:#6d6253;--gold:#856b36;--line:#d9cdb7;--tint:#eee6d8}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.8 Georgia,'Noto Serif Devanagari','Kohinoor Devanagari',serif}a{color:inherit;text-underline-offset:5px}a:hover{color:var(--gold)}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:6px}.skip{position:absolute;top:-100px;background:white;padding:1rem;z-index:3}.skip:focus{top:0}.review-banner{text-align:center;background:var(--tint);font:11px/1.5 system-ui,sans-serif;letter-spacing:.12em;padding:7px;text-transform:uppercase}header{max-width:1320px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:25px 5%;border-bottom:1px solid var(--line);gap:20px}.brand{text-decoration:none;font-size:28px;letter-spacing:.07em}.brand span{display:block;font:9px/1.5 system-ui,sans-serif;letter-spacing:.17em}nav{display:flex;gap:32px;font:13px/1.5 system-ui,sans-serif}nav a{text-decoration:none}.languages{display:flex;gap:10px;font:13px/1.5 system-ui,sans-serif}.languages a{text-decoration:none}.languages [aria-current]{border-bottom:1px solid var(--gold);font-weight:700}.languages span{color:var(--line)}.hero{max-width:1240px;margin:auto;padding:85px 5% 75px;display:grid;grid-template-columns:1.2fr 1fr;gap:10%;align-items:center}.eyebrow{font:11px/1.6 system-ui,sans-serif;letter-spacing:.19em;text-transform:uppercase;color:var(--gold);margin:0 0 22px}h1{font-weight:400;font-size:clamp(44px,5.4vw,76px);line-height:1.12;letter-spacing:-.045em;margin:0 0 22px}h2{font-weight:400;font-size:clamp(30px,3.2vw,44px);line-height:1.25;letter-spacing:-.025em;margin:0 0 22px}.dates{font:12px/1.7 system-ui,sans-serif;letter-spacing:.07em;color:var(--muted)}.rule{width:55px;border-top:1px solid var(--gold);margin:34px 0}.hero h2{font-size:30px;font-style:italic}.intro{color:var(--muted);font-size:18px;max-width:440px}.text-link{display:inline-flex;gap:45px;font:12px/1.5 system-ui,sans-serif;text-decoration:none;border-bottom:1px solid var(--gold);padding:10px 0;margin-top:18px}.portrait{margin:0;padding:14px;border:1px solid var(--line);transform:none}.portrait-inner{min-height:440px;background:var(--tint);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:32px;text-align:center}.monogram{font-size:90px;line-height:1.5;color:#927c54}.portrait figcaption{font:12px/1.7 system-ui,sans-serif;color:var(--muted);max-width:180px}.dedication{display:flex;align-items:center;justify-content:center;gap:35px;border-block:1px solid var(--line);padding:8px;color:var(--gold)}.dedication p{font-size:21px;font-style:italic}.section{max-width:1240px;margin:auto;padding:90px 5%}.story{display:grid;grid-template-columns:1fr 1.65fr;gap:9%}.section-head>p:not(.eyebrow){font:13px/1.7 system-ui,sans-serif;color:var(--muted)}.prose{font-size:19px}.prose>p:first-child{margin-top:0}.prose p{margin:0 0 24px}.prose strong{font-weight:600}details{margin-top:40px;border-block:1px solid var(--line);padding:20px 0}summary{cursor:pointer;color:var(--gold);font-size:18px}.long-story{padding-top:30px}h3{font-weight:400;font-size:26px}.tributes{max-width:none;background:var(--tint);padding-inline:max(5%,calc((100% - 1116px)/2))}.tribute-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:45px}.tribute-grid article{border-top:1px solid #b7a68a;padding-top:24px}.number{font:11px system-ui,sans-serif;color:var(--gold)}.tribute-grid h3{margin:12px 0}.tribute-grid p{font-size:20px;line-height:1.65}.caption{font:11px/1.7 system-ui,sans-serif;color:var(--muted);margin-top:30px}.gallery>p:not(.eyebrow){color:var(--muted)}.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}.photo-slot{background:var(--tint);border:1px solid var(--line);aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:15px;text-align:center}.photo-slot span{font-size:32px;color:var(--gold)}.photo-slot p{font:12px/1.6 system-ui,sans-serif;color:var(--muted)}.memories{text-align:center;border-top:1px solid var(--line);max-width:1116px}.memories>p:last-child{max-width:650px;margin:auto;color:var(--muted)}footer{text-align:center;border-top:1px solid var(--line);padding:50px 20px}footer p{font:12px/1.5 system-ui,sans-serif;color:var(--muted)}footer .footer-name{font:30px Georgia,serif;color:var(--ink)}footer .peace{font:24px Georgia,serif;color:var(--gold);margin-top:35px}footer small{font:10px system-ui,sans-serif;color:var(--muted)}[lang=hi] body{line-height:1.95}[lang=hi] h1{letter-spacing:0}[lang=hi] .eyebrow{letter-spacing:.06em}@media(max-width:700px){header{padding:18px 6%;flex-wrap:wrap}.brand{font-size:24px}nav{order:3;width:100%;justify-content:space-between;gap:12px;font-size:12px}.hero{grid-template-columns:1fr;padding:50px 7%;gap:40px}.hero-copy{max-width:500px}.portrait{width:85%;max-width:360px;margin:0 auto}.portrait-inner{min-height:330px}.section{padding:55px 7%}.story{display:block}.section-head{margin-bottom:30px}.prose{font-size:18px}.tribute-grid{grid-template-columns:1fr;gap:20px}.photo-grid{grid-template-columns:1fr}.photo-slot{aspect-ratio:16/9}.dedication{gap:18px}.dedication p{font-size:18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header,.review-banner,.skip,.languages,.photo-grid{display:none}.hero{padding:20px;display:block}.portrait{display:none}.section{padding:20px}.story{display:block}details:not([open]){display:none}body{background:white;color:black}}
+
+/* Navy memorial with champagne-metallic name lettering. */
+:root{
+ color-scheme:dark;
+ --paper:#04120e;
+ --ink:#e4efe6;
+ --muted:#bed3c3;
+ --gold:#d6ad60;
+ --line:#2b4439;
+ --tint:#0a2119;
+ --accent-heading:#bdddc5;
+}
+body{background:radial-gradient(ellipse at 50% 0,#0c2a20 0,transparent 700px),var(--paper)}
+h1,.brand,.monogram,footer .footer-name{color:var(--gold)}
+
+.brand span{color:var(--muted)}
+h2,h3{color:var(--accent-heading)}
+.hero .rule{border-color:var(--gold)}
+.portrait{border-color:#587264}
+.tribute-grid article{border-top-color:var(--line)}
+.skip{background:var(--tint);color:var(--ink)}
+.brand:hover{color:var(--gold)}
+@media print{
+ :root{color-scheme:light;--paper:white;--ink:black;--muted:#333;--gold:#67512c;--line:#bbb;--tint:#f5f5f5;--accent-heading:black}
+ body{background:white;color:black}
+ h1,.brand,.monogram,footer .footer-name{background:none;color:black;-webkit-text-fill-color:black}
+}
+
+/* Keep name lettering complete and the English name on one line. */
+.hero-copy{min-width:0}
+.hero h1{padding-block:.15em .25em;line-height:1.35;margin-bottom:12px}
+html[lang=en] .hero h1{white-space:nowrap;font-size:clamp(25px,4.1vw,58px);letter-spacing:-.045em}
+html[lang=hi] .hero h1{line-height:1.65;padding-block:.2em .4em;letter-spacing:0}
+@media(max-width:700px){html[lang=en] .hero h1{font-size:clamp(23px,7.1vw,48px)}}
+
+/* Shared bilingual opening geometry: language changes do not shift the layout. */
+.hero{align-items:start}
+.hero-copy{display:grid;grid-template-rows:40px 128px 44px 60px 100px 120px 58px}
+.hero-copy>.eyebrow{margin:0;align-self:start}
+html[lang=en] .hero h1,html[lang=hi] .hero h1{
+ box-sizing:border-box;display:flex;align-items:center;
+ height:128px;margin:0;padding:12px 0 18px;
+ line-height:1.3;white-space:nowrap;
+}
+html[lang=hi] .hero h1{font-size:clamp(36px,4.1vw,58px)}
+.hero-copy>.dates{margin:0;align-self:start}
+.hero-copy>.rule{margin:20px 0 0;align-self:start}
+.hero-copy>h2{margin:0;align-self:start}
+.hero-copy>.intro{margin:0;align-self:start}
+.hero-copy>.text-link{margin:0;align-self:start;justify-self:start}
+@media(max-width:700px){
+ .hero-copy{grid-template-rows:36px 100px 48px 54px 106px 156px 58px}
+ html[lang=en] .hero h1,html[lang=hi] .hero h1{height:100px;padding:10px 0 16px}
+ html[lang=hi] .hero h1{font-size:clamp(30px,7.1vw,48px)}
+}
+@media print{.hero-copy{display:block}html[lang=en] .hero h1,html[lang=hi] .hero h1{height:auto}}
+
+/* Portrait framing preserves the original local file; only the display is cropped. */
+.portrait{padding:10px;transform:none;align-self:start}
+.portrait>img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 64%}
+@media(max-width:700px){.portrait{width:100%;max-width:380px}}
+
+/* Solid champagne gold with a restrained, static gleam; no gradient. */
+h1,.brand,.monogram,footer .footer-name{
+ color:var(--gold);
+ text-shadow:0 1px 0 rgba(255,247,226,.24),0 0 12px rgba(226,201,155,.16);
+}
+.brand span{text-shadow:none}
+@media print{h1,.brand,.monogram,footer .footer-name{color:black;text-shadow:none}}
+
+/* Rich gold with crisp glints, without gradient shading or animation. */
+h1,.brand,.monogram,footer .footer-name{
+ color:var(--gold);
+ text-shadow:0 -1px 0 rgba(255,241,194,.7),0 1px 1px rgba(83,48,9,.8),0 0 5px rgba(233,185,83,.38);
+}
+.hero h1{position:relative}
+.brand{position:relative}
+@media print{h1,.brand,.monogram,footer .footer-name{text-shadow:none;color:black}}
+
+/* Chronological family album, with complete photo compositions. */
+.gallery-chapter{margin-top:48px}
+.gallery-chapter>h3{padding-bottom:12px;border-bottom:1px solid var(--line)}
+.photo-grid{align-items:start}
+.memory-photo{margin:0;min-width:0}
+.memory-photo a{display:block;background:var(--tint);border:1px solid var(--line);padding:6px}
+.memory-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:var(--paper)}
+.memory-photo figcaption{font:13px/1.65 system-ui,sans-serif;color:var(--muted);padding:12px 2px}
+.memory-photo a:hover{border-color:var(--gold)}
+@media(min-width:501px) and (max-width:700px){.gallery .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Swipeable photo flipper, with native keyboard and link navigation. */
+.gallery-flipper{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scroll-behavior:smooth;scrollbar-color:var(--gold) var(--tint);padding:8px 0 20px;margin-top:32px}
+.gallery-flipper>.memory-photo{flex:0 0 100%;scroll-snap-align:start;scroll-snap-stop:always;scroll-margin-top:24px}
+.gallery-flipper .memory-photo> a{height:clamp(300px,60vh,650px);display:flex;align-items:center;justify-content:center;padding:12px}
+.gallery-flipper .memory-photo img{width:100%;height:100%;aspect-ratio:auto;object-fit:contain}
+.gallery-flipper figcaption{text-align:center;font-size:15px;padding:16px 8px 8px}
+.photo-controls{display:flex;align-items:center;justify-content:center;gap:36px;width:100%;font:13px/1.5 system-ui,sans-serif}
+.photo-controls>a,.photo-controls>span:first-child,.photo-controls>span:last-child{display:grid;place-items:center;width:48px;height:44px}
+.photo-controls>a{border:1px solid var(--line);text-decoration:none;color:var(--gold);font-size:24px}
+.photo-controls>a:hover{border-color:var(--gold)}
+.gallery-flipper:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+@media(prefers-reduced-motion:reduce){.gallery-flipper{scroll-behavior:auto}}
+@media(max-width:700px){.photo-controls{order:initial}.gallery-flipper .memory-photo>a{height:55vh;min-height:300px;max-height:580px}}
+@media print{.gallery-flipper{display:block;overflow:visible}.gallery-flipper>.memory-photo{break-inside:avoid;margin-bottom:25px}.photo-controls{display:none}}
+
+/* Lighter emerald reading sections beneath the midnight opening. */
+main>.section{
+ max-width:none;
+ padding-inline:max(5%,calc((100% - 1116px)/2));
+ background:#123e2e;
+ --line:#426957;
+ --tint:#1b4a38;
+}
+main>.tributes,main>.memories{background:#174735}
+footer{background:#123e2e;border-color:#426957}
+@media(max-width:700px){main>.section{padding-inline:7%}}
+@media print{main>.section,footer{background:white;color:black}}
+
+/* Nature's Renewal: warm cream, sage and eucalyptus. */
+:root{
+ color-scheme:light;
+ --paper:#fdfbf7;
+ --ink:#2f3e46;
+ --muted:#52645d;
+ --gold:#52796f;
+ --line:#a8b99d;
+ --tint:#edf1e7;
+ --accent-heading:#52796f;
+}
+body{background:var(--paper);color:var(--ink)}
+.review-banner{background:#e3eadb;color:#2f3e46}
+header{background:var(--paper);border-color:var(--line)}
+.hero{background:var(--paper)}
+h1,.brand,.monogram,footer .footer-name{
+ background:none;color:#52796f;text-shadow:none;
+ -webkit-text-fill-color:currentColor;
+}
+.brand span{color:var(--muted)}
+h2,h3{color:#52796f}
+.dedication{background:#e3eadb;color:#3e6256;border-color:var(--line)}
+main>.section{
+ background:#fdfbf7;
+ --line:#a8b99d;
+ --tint:#edf1e7;
+}
+main>.tributes,main>.memories{background:#e8eede}
+.portrait{border-color:#9caf88;background:#edf1e7}
+.memory-photo a{background:#edf1e7;border-color:#9caf88}
+.memory-photo img{background:#fdfbf7}
+.gallery-flipper{scrollbar-color:#84a98c #edf1e7}
+.photo-controls>a{color:#3e6256;border-color:#9caf88;background:#edf1e7}
+footer{background:#e3eadb;border-color:#9caf88}
+.brand:hover{color:#3e6256}
+@media print{body,header,.hero,.dedication,main>.section,footer{background:white;color:black}h1,.brand,.monogram,footer .footer-name,h2,h3{color:black}}
+
+/* Warm espresso text for the cream and sage palette. */
+:root{--ink:#3b2f2a;--muted:#63534a}
+.review-banner{color:var(--ink)}
+@media print{:root{--ink:black;--muted:#333}.review-banner{color:black}}
+
+/* Soft Blush & Elegant Gold: ivory, rose and champagne details. */
+:root{
+ color-scheme:light;
+ --paper:#fffdf9;
+ --ink:#4a4444;
+ --muted:#6c5a5d;
+ --gold:#79552a;
+ --line:#d8b9b0;
+ --tint:#f9eceb;
+ --accent-heading:#88565d;
+}
+body,header,.hero{background:#fffdf9;color:var(--ink)}
+.review-banner{background:#f5dddf;color:#4a4444}
+header{border-color:#e8b4b8}
+h1,.brand,.monogram,footer .footer-name{background:none;color:#88565d;text-shadow:none;-webkit-text-fill-color:currentColor}
+.brand span{color:var(--muted)}
+h2,h3{color:#88565d}
+.hero .rule{border-color:#e0b77a}
+.dedication{background:#f5dddf;color:#75502d;border-color:#e0b77a}
+main>.section{background:#fffdf9;--line:#d8b9b0;--tint:#f9eceb}
+main>.tributes,main>.memories{background:#f9eceb}
+.tribute-grid article{border-top-color:#e0b77a}
+.portrait{background:#f9eceb;border-color:#e0b77a}
+.memory-photo a{background:#f9eceb;border-color:#e0b77a}
+.memory-photo img{background:#fffdf9}
+.gallery-flipper{scrollbar-color:#e8b4b8 #f9eceb}
+.photo-controls>a{color:#88565d;background:#f9eceb;border-color:#e0b77a}
+footer{background:#f5dddf;border-color:#e0b77a}
+.brand:hover{color:#72434a}
+@media print{body,header,.hero,.dedication,main>.section,footer{background:white;color:black}h1,.brand,.monogram,footer .footer-name,h2,h3{color:black}}
+
+/* Accessible memory submission and private family review. */
+.sr-only,.honey{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#memory-form{max-width:650px;margin:28px auto 0;text-align:left}
+#memory-form fieldset{border:0;padding:0;margin:0;min-width:0}
+#memory-form label,.review-page label{display:block;font:15px/1.6 system-ui,sans-serif;margin-top:18px;color:var(--ink)}
+input,textarea,button{font:inherit}
+#memory-form input:not([type=checkbox]),#memory-form textarea,.review-page input{display:block;width:100%;border:1px solid #a9918d;border-radius:4px;padding:12px;background:var(--paper);color:var(--ink);box-sizing:border-box}
+#memory-form textarea{resize:vertical;min-height:150px}
+#memory-form .consent{display:flex;gap:12px;align-items:flex-start;font-size:14px}
+.consent input{flex-shrink:0;width:20px;height:20px;margin-top:3px}
+button{min-height:44px;padding:10px 20px;border:1px solid #79552a;border-radius:4px;background:#79552a;color:#fffdf9;cursor:pointer;margin-top:20px}
+button:disabled{opacity:.55;cursor:default}
+input:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid #88565d;outline-offset:3px}
+#memory-status{font:15px/1.7 system-ui,sans-serif;max-width:650px;margin:24px auto}
+#approved-memories{max-width:750px;margin:50px auto 0;text-align:left}
+#approved-memories article,.review-page article{border-top:1px solid var(--line);padding:20px 0}
+#approved-memories p,.review-page article p{white-space:pre-wrap;overflow-wrap:anywhere}
+.review-page{max-width:900px}
+.review-page h1{font-size:40px}
+.review-page button{margin-right:10px}
+@media(max-width:700px){#memory-form input:not([type=checkbox]),#memory-form textarea{font-size:16px}.review-page h1{font-size:30px}}
+
+#print-notes-content{display:none}
+@media print{body:has(#print-notes-content:not([hidden])) .review-page>*{display:none!important}body:has(#print-notes-content:not([hidden])) #print-notes-content{display:block!important}#print-notes-content article{break-inside:avoid;border-top:1px solid #bbb;padding:16px 0}#print-notes-content h2{font-size:22px;margin:0 0 8px}#print-notes-content p{overflow-wrap:anywhere}}
